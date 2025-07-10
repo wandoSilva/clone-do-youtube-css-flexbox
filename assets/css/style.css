@@ -25,7 +25,6 @@
 .container form > input {
     height: 2rem;
     width: 20rem;
-    background: ;
 }
 /* input::after {
     content: url("../icons/search.png");
