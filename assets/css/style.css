@@ -20,13 +20,16 @@
     height: 2.5rem;
     width: 98%;
     /* width: 100vw; */
-    margin: 5px auto;
+    margin: 5px auto 20px auto;
 }
 .container form > input {
-    height: 35px;
-    width: 404px;
+    height: 2rem;
+    width: 20rem;
+    background: ;
 }
-
+/* input::after {
+    content: url("../icons/search.png");
+} */
 .config {
     display: flex;
     align-items: center;
