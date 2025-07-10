@@ -87,7 +87,7 @@ main h2 {
 button {
     border: none;
     background-color: transparent;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 .inscrever {
@@ -112,6 +112,12 @@ section.buttons {
     /* border: 1px dotted black; */
     text-transform: capitalize;
 }
+section.buttons button {
+    
+    width: 120px;
+    height: 30px;
+    border: 1px dotted black;
+}
 
 h2, h3, p, .buttons , iframe{
     width: 90%;
@@ -120,7 +126,9 @@ h2, h3, p, .buttons , iframe{
 .my-profile img {
     border-radius: 50%;
 }
-.buttons button{
-    justify-content: center;
-    justify-items: center;
+.buttons button img{ 
+    float:left ;
+    position: relative;   
+    padding: auto;
+    text-transform: capitalize;
 }
