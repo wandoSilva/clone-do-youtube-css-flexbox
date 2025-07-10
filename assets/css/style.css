@@ -17,9 +17,10 @@
     justify-content: space-between;
     align-items: center;
     /* border: 1px dotted black; */
-    height: 5.0rem;
-    width: 100vw;
-    margin: 5px;
+    height: 2.5rem;
+    width: 98%;
+    /* width: 100vw; */
+    margin: 5px auto;
 }
 .container form > input {
     height: 35px;
@@ -120,7 +121,7 @@ section.buttons {
     /* width: 90%; */
     align-items: center;
     justify-content: space-between;
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     text-transform: capitalize;
 }
 section.buttons button {
@@ -128,7 +129,7 @@ section.buttons button {
     text-align: center;
     /* width: 120px; */
     height: 100%;
-    border: 1px dotted black;
+    
     text-align: left;
     cursor: pointer;
 
@@ -146,8 +147,14 @@ section.buttons > img{
     margin-right: 0px;
     width:40px;
     height: 40px;
-    /* float:left ; */
-    /* position: relative;    */
-    /* padding: auto; */
     text-transform: capitalize;
+}
+h3 + p {
+    margin-left: 0;
+    float: left;
+    margin-left: 45px;
+    /* margin: 10px 0px; */
+    width: 50%;
+    /* border: 1px dotted black; */
+    /* margin: 1px auto; */
 }
