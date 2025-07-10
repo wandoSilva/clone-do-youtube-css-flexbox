@@ -34,7 +34,10 @@
 .menu {
     display: flex;
     align-items: center;
+    align-content:center;
     gap: 10px;
+    /* border: 1px dotted black; */
+    width: 150px;
 }
 main {
     margin: 5px;
@@ -87,7 +90,7 @@ main h2 {
 button {
     border: none;
     background-color: transparent;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
 }
 .inscrever {
@@ -100,9 +103,14 @@ button {
     border-radius: 2px;
 }
 .logo {
-    width: 40px;
+    width: 100px;
     height: 40px;
-    border-radius: 50%;
+    position: relative;
+}
+div.menu a.logo img {
+    position: absolute;
+    /* border: 1px dotted black; */
+    top: calc((40px - 19px)/3);
 }
 section.buttons {
     display: flex;
@@ -113,10 +121,14 @@ section.buttons {
     text-transform: capitalize;
 }
 section.buttons button {
-    
+    text-transform: capitalize;
+    text-align: center;
     width: 120px;
     height: 30px;
     border: 1px dotted black;
+    text-align: left;
+    cursor: pointer;
+
 }
 
 h2, h3, p, .buttons , iframe{
